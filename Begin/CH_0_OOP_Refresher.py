@@ -19,22 +19,13 @@ car2 = Car("Ford", "Mustang")
 
 print(f"I have a {car1.make} {car1.model}.")
 print(f"I also own a {car2.make} {car2.model}.")
-
 # Abstraction: We create objects without worrying about the internal details of the Car class.
-
 # Creating the first car (object)
-
 # Creating the second car (object)
-
-
 # Accessing object attributes
-
 # Encapsulation: Accessing object attributes (make and model) using dot notation.
-
-
 # Calling object methods
-
 # Polymorphism: Different objects (car1 and car2) can perform the same action (start_engine).
-
-
 # Method Call - start_engine
+car1.start_engine()
+car2.start_engine()
